@@ -1,0 +1,516 @@
+# depslib dependency file v1.0
+1320612902 source:/home/tomas/Dev/C++/SDLR/Bullet.cpp
+	"Bullet.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	"ImageManager.h"
+	"Setup.h"
+
+1319672594 /home/tomas/Dev/C++/SDLR/Bullet.h
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	"ImageManager.h"
+	"Setup.h"
+
+1324406749 /home/tomas/Dev/C++/SDLR/ImageManager.h
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"Dot.h"
+	"Setup.h"
+	"World.h"
+	<string>
+	<cstdlib>
+	<vector>
+
+1324324459 /home/tomas/Dev/C++/SDLR/Dot.h
+	"Setup.h"
+	"SDL/SDL.h"
+	"ImageManager.h"
+	"Particle.h"
+	"Bullet.h"
+	"World.h"
+	<vector>
+
+1319332784 /home/tomas/Dev/C++/SDLR/Setup.h
+	"SDL/SDL.h"
+
+1318121926 /home/tomas/Dev/C++/SDLR/Particle.h
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"ImageManager.h"
+	"Setup.h"
+
+1320773613 /home/tomas/Dev/C++/SDLR/World.h
+	"SDL/SDL.h"
+	"Setup.h"
+	<vector>
+
+1324409318 source:/home/tomas/Dev/C++/SDLR/Dot.cpp
+	"Dot.h"
+	"SDL/SDL.h"
+	<cstdlib>
+	<iostream>
+	<sstream>
+	"Setup.h"
+	"Particle.h"
+	"Bullet.h"
+	"World.h"
+	"Physics.h"
+
+1322757615 /home/tomas/Dev/C++/SDLR/Physics.h
+	"SDL/SDL_image.h"
+
+1324409134 source:/home/tomas/Dev/C++/SDLR/ImageManager.cpp
+	"ImageManager.h"
+	"Setup.h"
+	"Dot.h"
+	"World.h"
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	<string>
+	<cstdlib>
+	<vector>
+	<iostream>
+
+1318122882 source:/home/tomas/Dev/C++/SDLR/Particle.cpp
+	"Particle.h"
+	"ImageManager.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	<iostream>
+
+1324409001 source:/home/tomas/Dev/C++/SDLR/Setup.cpp
+	<cstdlib>
+	<string>
+	<iostream>
+	"Setup.h"
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+
+1317734245 source:/home/tomas/Dev/C++/SDLR/SoundManager.cpp
+	"SoundManager.h"
+	"Setup.h"
+	"SDL/SDL.h"
+	"SDL/SDL_mixer.h"
+	<string>
+	<cstdlib>
+	<vector>
+	<iostream>
+
+1317384059 /home/tomas/Dev/C++/SDLR/SoundManager.h
+	"SDL/SDL.h"
+	"SDL/SDL_mixer.h"
+	<string>
+	<vector>
+
+1318025669 source:/home/tomas/Dev/C++/SDLR/Timer.cpp
+	"Timer.h"
+	"SDL/SDL.h"
+
+1316027770 /home/tomas/Dev/C++/SDLR/Timer.h
+	"SDL/SDL.h"
+
+1321068007 source:/home/tomas/Dev/C++/SDLR/Vector2.cpp
+	"Vector2.h"
+
+1321068020 /home/tomas/Dev/C++/SDLR/Vector2.h
+
+1322752541 source:/home/tomas/Dev/C++/SDLR/World.cpp
+	"World.h"
+	"Setup.h"
+	"Dot.h"
+	"SDL/SDL.h"
+	<fstream>
+	<vector>
+	<iostream>
+	<sstream>
+	<string>
+
+1324408965 source:/home/tomas/Dev/C++/SDLR/main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL.h>
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	<string>
+	<sstream>
+	<iostream>
+	"Dot.h"
+	"Setup.h"
+	"ImageManager.h"
+	"SoundManager.h"
+	"Timer.h"
+	"Particle.h"
+	"Bullet.h"
+	"World.h"
+
+1278057011 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1278057011 /usr/include/SDL/SDL_platform.h
+
+1278057011 /usr/include/SDL/begin_code.h
+
+1278057011 /usr/include/SDL/close_code.h
+
+1278057011 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_keysym.h
+
+1278057011 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1278057011 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327368444 source:/home/tomas/Dev/C++/SDLR_v0.1/Bullet.cpp
+	"Bullet.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	"ImageManager.h"
+	"Setup.h"
+	"Vector2.h"
+
+1319672594 /home/tomas/Dev/C++/SDLR_v0.1/Bullet.h
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	"ImageManager.h"
+	"Setup.h"
+
+1328061134 /home/tomas/Dev/C++/SDLR_v0.1/ImageManager.h
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"Dot.h"
+	"Setup.h"
+	"World.h"
+	<string>
+	<cstdlib>
+	<vector>
+
+1327366099 /home/tomas/Dev/C++/SDLR_v0.1/Dot.h
+	"Setup.h"
+	"SDL/SDL.h"
+	"ImageManager.h"
+	"Particle.h"
+	"Bullet.h"
+	"World.h"
+	"Vector2.h"
+	<deque>
+
+1319332784 /home/tomas/Dev/C++/SDLR_v0.1/Setup.h
+	"SDL/SDL.h"
+
+1318121926 /home/tomas/Dev/C++/SDLR_v0.1/Particle.h
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"ImageManager.h"
+	"Setup.h"
+
+1328039987 /home/tomas/Dev/C++/SDLR_v0.1/World.h
+	"SDL/SDL.h"
+	"Setup.h"
+	<vector>
+
+1328032778 source:/home/tomas/Dev/C++/SDLR_v0.1/Dot.cpp
+	"Dot.h"
+	"SDL/SDL.h"
+	<cstdlib>
+	<iostream>
+	<sstream>
+	<algorithm>
+	"Setup.h"
+	"Particle.h"
+	"Bullet.h"
+	"World.h"
+	"physics.h"
+	"Vector2.h"
+
+1322757615 /home/tomas/Dev/C++/SDLR_v0.1/Physics.h
+	"SDL/SDL_image.h"
+
+1328060381 source:/home/tomas/Dev/C++/SDLR_v0.1/ImageManager.cpp
+	"ImageManager.h"
+	"Setup.h"
+	"Dot.h"
+	"World.h"
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	<string>
+	<cstdlib>
+	<vector>
+	<iostream>
+
+1318122882 source:/home/tomas/Dev/C++/SDLR_v0.1/Particle.cpp
+	"Particle.h"
+	"ImageManager.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	<iostream>
+
+1327322432 source:/home/tomas/Dev/C++/SDLR_v0.1/Setup.cpp
+	<cstdlib>
+	<string>
+	<iostream>
+	"Setup.h"
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+
+1317734245 source:/home/tomas/Dev/C++/SDLR_v0.1/SoundManager.cpp
+	"SoundManager.h"
+	"Setup.h"
+	"SDL/SDL.h"
+	"SDL/SDL_mixer.h"
+	<string>
+	<cstdlib>
+	<vector>
+	<iostream>
+
+1317384059 /home/tomas/Dev/C++/SDLR_v0.1/SoundManager.h
+	"SDL/SDL.h"
+	"SDL/SDL_mixer.h"
+	<string>
+	<vector>
+
+1318025669 source:/home/tomas/Dev/C++/SDLR_v0.1/Timer.cpp
+	"Timer.h"
+	"SDL/SDL.h"
+
+1316027770 /home/tomas/Dev/C++/SDLR_v0.1/Timer.h
+	"SDL/SDL.h"
+
+1327587157 source:/home/tomas/Dev/C++/SDLR_v0.1/Vector2.cpp
+	"Vector2.h"
+	"math.h"
+
+1327872523 /home/tomas/Dev/C++/SDLR_v0.1/Vector2.h
+
+1328060354 source:/home/tomas/Dev/C++/SDLR_v0.1/World.cpp
+	"World.h"
+	"Setup.h"
+	"Dot.h"
+	"SDL/SDL.h"
+	<fstream>
+	<vector>
+	<iostream>
+	<sstream>
+	<string>
+
+1327874871 source:/home/tomas/Dev/C++/SDLR_v0.1/main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL.h>
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	"SDL/SDL_opengl.h"
+	<string>
+	<sstream>
+	<iostream>
+	"Dot.h"
+	"Setup.h"
+	"ImageManager.h"
+	"SoundManager.h"
+	"Timer.h"
+	"Particle.h"
+	"Bullet.h"
+	"World.h"
+
+1327323045 source:/home/tomas/Dev/C++/SDLR_v0.1/physics.cpp
+	"physics.h"
+	"SDL/SDL.h"
+
+1327323188 /home/tomas/Dev/C++/SDLR_v0.1/physics.h
+	"SDL/SDL.h"
+
+1327883310 source:/home/tomas/Dev/C++/SDLR_v0.1/enemy.cpp
+	"enemy.h"
+	"Vector2.h"
+	"ImageManager.h"
+	"Setup.h"
+	"physics.h"
+	"Bullet.h"
+	"SDL/SDL.h"
+
+1327874487 /home/tomas/Dev/C++/SDLR_v0.1/enemy.h
+	"Vector2.h"
+	"ImageManager.h"
+	"Setup.h"
+
